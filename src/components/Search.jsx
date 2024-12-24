@@ -1,16 +1,12 @@
 import React from 'react'
 import '../Styles/Search.css'
 
-function Search(){
+export const Search = ({keyword, onSearchChange}) => {
   return (
     <>
-    <h3 className="titulo">Más de 800 pokemones, elige tu favorito</h3>
+    <h3 className="titulo">Welcome to pokedex!</h3>
     <section className="container-buscador">
-        <input type="text" placeholder='Encuentra tu pokemon' className="input-buscar"/>
-        <button className="btn-buscar">
-            <img src="https://images.vexels.com/content/143356/preview/search-magnifying-glass-45dad4.png"></img>
-            Buscar pokemon
-        </button>
+        <input type="text" placeholder='Encuentra tu pokemon' className="input-buscar" value={keyword} onChange={onSearchChange}/>
     </section>
     </>
   )
