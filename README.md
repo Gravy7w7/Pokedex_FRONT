@@ -97,7 +97,7 @@ pokedex_front/
 
 ## Despliegue
 
-El proyecto se encuentra en línea, puede acceder a él a partir del siguiente enlance.
+El proyecto se encuentra en línea, puede acceder a él a partir del siguiente enlace.
 [Pokedex](http://pokedex.zapto.org/)
 
 El enlace debe ser exclusivamente http debido a que no tiene el certificado de SSL
