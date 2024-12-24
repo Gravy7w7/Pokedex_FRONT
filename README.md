@@ -101,6 +101,3 @@ El proyecto se encuentra en línea, puede acceder a él a partir del siguiente e
 [Pokedex](http://pokedex.zapto.org/)
 
 El enlace debe ser exclusivamente http debido a que no tiene el certificado de SSL
-
-### Notas
-- Asegúrate de que el Backend esté funcionando y accesible desde el entorno donde desplegaste el FrontEnd.
