@@ -1,0 +1,15 @@
+.titulo{
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.container-buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0;
+}
