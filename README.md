@@ -97,21 +97,10 @@ pokedex_front/
 
 ## Despliegue
 
-### Despliegue en Producción
+El proyecto se encuentra en línea, puede acceder a él a partir del siguiente enlance.
+http://pokedex.zapto.org/
 
-1. Construye la aplicación:
-   ```bash
-   npm run build
-   ```
-
-   Esto generará una versión optimizada de la aplicación en el directorio `dist/`.
-
-2. Sube los archivos al servidor o utiliza servicios de hosting como:
-   - [Netlify](https://www.netlify.com/)
-   - [Vercel](https://vercel.com/)
-   - [GitHub Pages](https://pages.github.com/)
-
-3. Configura la aplicación para que apunte al API Backend de producción, actualizando la variable `VITE_API_URL` en el archivo `.env.local`.
+El enlace debe ser exclusivamente http debido a que no tiene el certificado de SSL
 
 ### Notas
 - Asegúrate de que el Backend esté funcionando y accesible desde el entorno donde desplegaste el FrontEnd.
